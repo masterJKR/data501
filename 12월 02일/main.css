@@ -1,0 +1,61 @@
+/* main.css */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.wrap{
+    width:1200px;
+    border:2px solid black;
+    margin:0 auto;
+}
+.header{
+    width:100%;
+    border:2px solid red;
+    /* height:200px; */
+    /* vertical-align: middle; 수직 정렬 */
+    padding:50px 0;
+    text-align: center;
+}
+.menu{
+    font-size:20px;
+    padding:0 20px;
+}
+.menu:hover{ /* 마우스커서가 위에 올라오면 동작 */
+    cursor: pointer;
+    color:red;
+}
+.hot{
+    list-style-type:none;
+    font-size:25px;
+    line-height:50px;
+    padding:0;
+}
+.order{
+    padding:0;
+    list-style-type: none;
+}
+
+.main img{
+    width:100%;
+}
+.main{
+    padding:50px;
+}
+
+.footer{
+    background: #777;
+    padding:100px;
+}
+.addr{
+    color:#ddd;
+    font-size:30px;
+}
+.make{
+    color:yellow;
+    text-align: right;
+    font-size:20px;
+}
