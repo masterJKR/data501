@@ -1,1 +1,66 @@
 /*  index.css  */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#wrap{
+    width:1000px;
+    margin:0 auto;
+}
+#header{
+    position:relative;
+    height:90px;
+    background:lightblue;
+}
+.imgBox{
+    position:relative;
+    top:20px;
+    left:40px;
+}
+#menu1, #menu2, #menu3{
+    position:absolute;
+    top:20px;  
+    background: black;
+    line-height: 50px;
+    color:white;
+    width:100px;
+    text-align: center;
+}
+#menu1{ left:300px;}
+#menu2{ left:500px;}
+#menu3{ left:700px;}
+
+#main{
+    position:relative;
+    top:50px;
+    height:700px;
+    background: lightblue;
+}
+#mainImg{
+    position:relative;
+    top:20px;
+    left:20px;
+}
+#box1{
+    position:relative;
+    top:80px;
+    left:20px;
+    height:300px;
+    width:400px;
+    background: purple;
+}
+#box2{
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:400px;
+    height:660px;
+    background: green;
+}
+#side{
+    position:fixed;
+    right:50px;
+    top:300px;
+}
