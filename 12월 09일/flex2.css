@@ -1,0 +1,29 @@
+/* flex2.css */
+
+.orange{
+    background: orange;
+}
+.green{ background: green;}
+.blue{ background: blue;}
+.pink{background: pink;}
+.item{
+    height:100px;
+    width:100px;
+}
+
+#wrap1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:800px;
+    border:1px solid black;
+    justify-content: space-evenly;
+}
+
+#wrap1 .green{
+    align-self: start;
+}
+#wrap1>.blue{
+    align-self: end;
+}
+#wrap1>.pink{ align-self: start;}
