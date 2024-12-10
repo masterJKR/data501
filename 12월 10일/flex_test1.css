@@ -1,0 +1,35 @@
+/* flex_test1.css  */
+
+#flex1{
+    display: flex;
+    background:lawngreen;
+    padding-left:20px;
+}
+.item1{
+    background: yellow;
+    border:1px solid red;
+    /* height:50px; */
+    padding:15px 10px;
+}
+.item1:first-child{
+
+}
+
+.yellow{background: yellow;}
+.red{background: red;}
+.gray{background: gray;}
+.brown{background: brown;}
+.item2:nth-child(3){
+    font-size:40px;
+    padding:14.3px 20px;
+}
+
+#flex2{
+    display: flex;
+    background: skyblue;
+    padding:20px 0;
+    align-items: center;
+}
+.item2{
+    padding:30px 20px;
+}
