@@ -120,4 +120,22 @@ img{ display: block; width:100%;}
     /* width:calc(25% - 5px); */
     /*  flex-grow 비율, flex-shrink 공간부족여부 */
     flex:1 1 calc(25% - 5px);
+    position:relative;
 }
+
+#main .img_box .big{
+    position:absolute;
+    z-index:-10;
+    width:600px;
+    top:50%;left:50%;
+    /* box-shadow: inset 0px 0px 30px  rgb(0,0,0,0.5); */
+    /* mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%); */
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 80%, rgb(0,0,0,0) 100%);
+    opacity: 0;
+}
+#main .img_box:hover .big{
+    opacity: 1;
+    z-index:100;
+}
+
+
